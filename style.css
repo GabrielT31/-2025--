@@ -3,7 +3,7 @@
 :root {
     --fonte-primaria: "Protest Riot", sans-serif;
     --fonte-secundaria: "Albert Sans", sans-serif;
-    --azul-pton: #00a6fbff;
+    --azul-pton: #00a6fb;
     --azul-metalico: #0582caff;
     --lapis-lazuli: #006494ff;
     --azul-prussiano: #003554ff;
@@ -66,9 +66,9 @@ border-radius: 40px 40px 0 0;
  border-radius: 0 0 40px 40px;
 }
 
-.botao-ativo {
+.botao.ativo {
     background-color: var(--lapis-lazuli);
-    border-bottom: 4px solid var(--lapis-lazuli);
+    border-bottom: 4px solid var(--azul-prussiano);
 }
 .abas-textos{
     background-color: var(--azul-pton);
@@ -84,10 +84,11 @@ border-radius: 40px 40px 0 0;
 .aba-conteudo-titulo-principal{
     font-size: 28px;
     text-align: center;
+    color: var(--azul-prussiano);
 }
 .aba-conteudo-titulo-secundario{
     text-align: center;
-    color: var(--azul-pton);
+    color: var(--azul-prussiano);
     text-transform: uppercase;
 }
 @media screen and (min-width:768px) {
