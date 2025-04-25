@@ -8,6 +8,7 @@
     --lapis-lazuli: #006494ff;
     --azul-prussiano: #003554ff;
     --preto-rico: #051923ff;
+    --azul: #00eeffaa;
 
 }
 
@@ -36,8 +37,8 @@ body {
     font-size: 32px;
 }
 
-.titulo-principal span {
-    color: var(--azul-prussiano);
+.titulo-principal spam {
+    color: var(--azul);
 }
 
 .botao {
